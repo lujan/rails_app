@@ -3,6 +3,7 @@ ruby '2.0.0'
 #ruby-gemset=ruby2rails4
 
 gem 'rails', '4.0.0'
+# gem 'pg', '0.15.1'
 gem 'bootstrap-sass', '2.3.2.0'
 gem 'bcrypt-ruby', '3.0.1'
 gem 'faker', '1.1.2'
@@ -13,10 +14,10 @@ group :development, :test do
   gem 'sqlite3', '1.3.8'
   gem 'rspec-rails', '2.13.1'
   # The following optional lines are part of the advanced setup.
-  # gem 'guard-rspec', '2.5.0'
-  # gem 'spork-rails', '4.0.0'
-  # gem 'guard-spork', '1.5.0'
-  # gem 'childprocess', '0.3.6'
+  gem 'guard-rspec', '2.5.0'
+  gem 'spork-rails', '4.0.0'
+  gem 'guard-spork', '1.5.0'
+  gem 'childprocess', '0.3.6'
 end
 
 group :test do
